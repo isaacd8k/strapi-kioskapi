@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "kiosk_configs",
+  "info": {
+    "name": "Kiosk Config"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "announcement_board__en": {
+      "type": "component",
+      "repeatable": true,
+      "component": "kiosk.announcement-board"
+    },
+    "screen_timeout": {
+      "type": "integer"
+    },
+    "announcementbrd__defduration": {
+      "type": "integer",
+      "default": 12,
+      "required": true,
+      "min": 5,
+      "max": 60
+    },
+    "menu__map_hidebathrooms": {
+      "type": "boolean",
+      "default": false
+    },
+    "menu__map_hidewaterfountains": {
+      "type": "boolean"
+    },
+    "menu__map_hidefirstaid": {
+      "type": "boolean"
+    },
+    "menu__map_hidedonations": {
+      "type": "boolean"
+    },
+    "menu__events_hideregco": {
+      "type": "boolean"
+    },
+    "menu__events_hideca": {
+      "type": "boolean"
+    },
+    "menu__events_hideeventshelp": {
+      "type": "boolean"
+    },
+    "announcement_boards": {
+      "collection": "announcement-boards"
+    },
+    "announcement_boards_en": {
+      "collection": "announcement-boards"
+    },
+    "announcement_boards__es": {
+      "type": "component",
+      "repeatable": true,
+      "component": "kiosk.announcement-board"
+    }
+  }
+}

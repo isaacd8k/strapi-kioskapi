@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_kiosk_menu_translations",
+  "info": {
+    "name": "Menu Translations",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "component_label": {
+      "type": "string"
+    },
+    "map_sectiontitle": {
+      "type": "string"
+    },
+    "map_bathrooms": {
+      "type": "string"
+    },
+    "map_waterfountains": {
+      "type": "string"
+    },
+    "map_firstaid": {
+      "type": "string"
+    },
+    "map_donations": {
+      "type": "string"
+    },
+    "map_directory": {
+      "type": "string"
+    },
+    "events_sectiontitle": {
+      "type": "string"
+    },
+    "events_regco": {
+      "type": "string"
+    },
+    "events_ca": {
+      "type": "string"
+    },
+    "events_help": {
+      "type": "string"
+    },
+    "events_schedule": {
+      "type": "string"
+    }
+  }
+}

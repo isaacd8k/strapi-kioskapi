@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/event-season-translations",
+      "handler": "event-season-translations.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/event-season-translations/count",
+      "handler": "event-season-translations.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/event-season-translations/:id",
+      "handler": "event-season-translations.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/event-season-translations",
+      "handler": "event-season-translations.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/event-season-translations/:id",
+      "handler": "event-season-translations.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/event-season-translations/:id",
+      "handler": "event-season-translations.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

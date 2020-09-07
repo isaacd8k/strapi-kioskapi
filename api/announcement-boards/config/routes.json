@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/announcement-boards",
+      "handler": "announcement-boards.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/announcement-boards/count",
+      "handler": "announcement-boards.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/announcement-boards/:id",
+      "handler": "announcement-boards.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/announcement-boards",
+      "handler": "announcement-boards.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/announcement-boards/:id",
+      "handler": "announcement-boards.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/announcement-boards/:id",
+      "handler": "announcement-boards.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

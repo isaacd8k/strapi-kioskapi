@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_kiosk_announcement_boards",
+  "info": {
+    "name": "announcement_board",
+    "icon": "tv"
+  },
+  "options": {},
+  "attributes": {
+    "custom_duration": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "did_you_know",
+        "safety",
+        "psa",
+        "welcome",
+        "misc"
+      ],
+      "required": true
+    },
+    "message": {
+      "type": "text",
+      "maxLength": 200,
+      "required": true
+    },
+    "featured_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "event_season_translations",
+  "info": {
+    "name": "Event Season Translations"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "event_season": {
+      "model": "event-season",
+      "via": "event_season_translation"
+    },
+    "locale": {
+      "type": "string",
+      "required": true
+    },
+    "themeTranslation": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

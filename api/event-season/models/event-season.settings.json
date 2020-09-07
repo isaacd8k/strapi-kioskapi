@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "event_seasons",
+  "info": {
+    "name": "Event Season"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "theme": {
+      "type": "string",
+      "required": true
+    },
+    "service_year": {
+      "type": "integer"
+    },
+    "event_type": {
+      "type": "enumeration",
+      "enum": [
+        "reg",
+        "ca",
+        "mem",
+        "other"
+      ],
+      "required": true
+    },
+    "event_season_translation": {
+      "via": "event_season",
+      "model": "event-season-translations"
+    },
+    "events": {
+      "via": "event_season",
+      "collection": "event"
+    }
+  }
+}

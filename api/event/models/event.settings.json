@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "name": "Event"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "event_type": {
+      "type": "enumeration",
+      "enum": [
+        "reg",
+        "ca",
+        "mem",
+        "other"
+      ],
+      "required": true
+    },
+    "event_datestart": {
+      "type": "date",
+      "required": true
+    },
+    "event_dateend": {
+      "type": "date",
+      "required": true
+    },
+    "event_lang": {
+      "type": "string",
+      "required": true,
+      "default": "en"
+    },
+    "belongsToSeason": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "theme": {
+      "type": "string"
+    },
+    "event_season": {
+      "model": "event-season",
+      "via": "events"
+    }
+  }
+}

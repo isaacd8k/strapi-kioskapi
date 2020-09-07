@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_kiosk_system_translations",
+  "info": {
+    "name": "System Translations",
+    "icon": "cogs"
+  },
+  "options": {},
+  "attributes": {
+    "appname": {
+      "type": "string"
+    },
+    "open": {
+      "type": "string"
+    },
+    "close": {
+      "type": "string"
+    },
+    "help": {
+      "type": "string"
+    },
+    "map": {
+      "type": "string"
+    },
+    "endsession": {
+      "type": "string"
+    },
+    "venuename": {
+      "type": "string"
+    },
+    "upcoming_event": {
+      "type": "string"
+    },
+    "return": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "select": {
+      "type": "string"
+    },
+    "menu": {
+      "type": "string"
+    },
+    "notifications_inactivityprompt_header": {
+      "type": "string"
+    },
+    "notifications_inactivityprompt_msg": {
+      "type": "string"
+    },
+    "notifications_inactivityprompt_affirmativebtn": {
+      "type": "string"
+    }
+  }
+}

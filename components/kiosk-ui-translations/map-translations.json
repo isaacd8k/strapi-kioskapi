@@ -1,0 +1,103 @@
+{
+  "collectionName": "components_kiosk_map_translations",
+  "info": {
+    "name": "Map Translations",
+    "icon": "globe-americas"
+  },
+  "options": {},
+  "attributes": {
+    "component_title": {
+      "type": "string"
+    },
+    "legend_label": {
+      "type": "string"
+    },
+    "legend_instructions": {
+      "type": "string"
+    },
+    "locations_bathrooms__fullname": {
+      "type": "string"
+    },
+    "locations_bathrooms__abbr": {
+      "type": "string"
+    },
+    "locations_waterftn__fullname": {
+      "type": "string"
+    },
+    "locations_waterftn__abbr": {
+      "type": "string"
+    },
+    "locations_firstaid__fullname": {
+      "type": "string"
+    },
+    "locations_firstaid__abbr": {
+      "type": "string"
+    },
+    "locations_donations__fullname": {
+      "type": "string"
+    },
+    "locations_donations__abbr": {
+      "type": "string"
+    },
+    "locations_mezz__fullname": {
+      "type": "string"
+    },
+    "locations_mezz__abbr": {
+      "type": "string"
+    },
+    "locations_firstfl__fullname": {
+      "type": "string"
+    },
+    "locations_firstfl__abbr": {
+      "type": "string"
+    },
+    "mappane_title": {
+      "type": "string"
+    },
+    "mappane_youarehere": {
+      "type": "string"
+    },
+    "resultspane_filterslabel": {
+      "type": "string"
+    },
+    "resultspane_tapinstructions": {
+      "type": "string"
+    },
+    "resultspane_numresultslabel": {
+      "type": "string"
+    },
+    "resultspane_viewresult": {
+      "type": "string"
+    },
+    "bath_amenitieslabel": {
+      "type": "string"
+    },
+    "bath_genderf": {
+      "type": "string"
+    },
+    "bath_genderm": {
+      "type": "string"
+    },
+    "bath_babystationlabel": {
+      "type": "string"
+    },
+    "bath_disinfectantsolutionlabel": {
+      "type": "string"
+    },
+    "directionspane_directionslabel": {
+      "type": "string"
+    },
+    "directionspane_returnlabel": {
+      "type": "string"
+    },
+    "donations_cashlabel": {
+      "type": "string"
+    },
+    "donations_creditlabel": {
+      "type": "string"
+    },
+    "donations_paymenttypelabel": {
+      "type": "string"
+    }
+  }
+}

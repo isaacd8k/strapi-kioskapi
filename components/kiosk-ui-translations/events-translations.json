@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_kiosk_events_translations",
+  "info": {
+    "name": "Events Translations",
+    "icon": "calendar-check"
+  },
+  "options": {},
+  "attributes": {
+    "regco_fullname": {
+      "type": "string"
+    },
+    "regco_abbr": {
+      "type": "string"
+    },
+    "ca_fullname": {
+      "type": "string"
+    },
+    "ca_abbr": {
+      "type": "string"
+    },
+    "caco_fullname": {
+      "type": "string"
+    },
+    "caco_abbr": {
+      "type": "string"
+    },
+    "cabr_fullname": {
+      "type": "string"
+    },
+    "cabr_abbr": {
+      "type": "string"
+    },
+    "viewopts_langlabel": {
+      "type": "string"
+    },
+    "viewopts_typelabel": {
+      "type": "string"
+    },
+    "viewopts_gallerylabel": {
+      "type": "string"
+    },
+    "viewopts_listlabel": {
+      "type": "string"
+    },
+    "event_singular": {
+      "type": "string"
+    },
+    "event_pluralized": {
+      "type": "string"
+    },
+    "notifications_noeventsfound_title": {
+      "type": "string"
+    },
+    "notifications_noeventsfound_msg": {
+      "type": "string"
+    }
+  }
+}

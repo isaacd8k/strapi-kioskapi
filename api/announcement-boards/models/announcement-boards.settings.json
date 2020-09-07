@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "announcement_boards",
+  "info": {
+    "name": "Announcement Board"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "custom_duration": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "did_you_know",
+        "safety",
+        "psa",
+        "welcome",
+        "misc"
+      ]
+    },
+    "message": {
+      "type": "text",
+      "required": false,
+      "maxLength": 200
+    },
+    "featured_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "locale": {
+      "type": "string"
+    }
+  }
+}

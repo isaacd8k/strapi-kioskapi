@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kiosk-config",
+      "handler": "kiosk-config.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kiosk-config",
+      "handler": "kiosk-config.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kiosk-config",
+      "handler": "kiosk-config.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

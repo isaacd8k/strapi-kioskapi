@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "ui_translations",
+  "info": {
+    "name": "UI Translations"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "locale": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "system": {
+      "type": "component",
+      "repeatable": false,
+      "component": "kiosk-ui-translations.system-translations",
+      "required": true
+    },
+    "menu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "kiosk-ui-translations.menu-translations",
+      "required": true
+    },
+    "map": {
+      "type": "component",
+      "repeatable": false,
+      "component": "kiosk-ui-translations.map-translations",
+      "required": true
+    },
+    "events": {
+      "type": "component",
+      "repeatable": false,
+      "component": "kiosk-ui-translations.events-translations",
+      "required": true
+    }
+  }
+}
