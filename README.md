@@ -1,3 +1,3 @@
-# Strapi application
+# Strapi Kiosk API
 
-A quick description of your strapi application
+The API that will handle all incoming data requests from our kiosk clients
